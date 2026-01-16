@@ -1,0 +1,262 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Jaypal Koli",
+      "role": "QA Lead",
+      "image": "",
+      "bugs": 12,
+      "courses": 5,
+      "activities": 8,
+      "score": 500,
+      "previousScore": 20,
+      "bugCount": 56,
+      "severities": {
+        "blocker": 6,
+        "critical": 13,
+        "major": 17,
+        "normal": 11,
+        "minor": 9
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rishabh Kanaujiya",
+      "role": "Senior QA",
+      "image": "",
+      "bugs": 10,
+      "courses": 8,
+      "activities": 7,
+      "score": 257,
+      "previousScore": 15,
+      "bugCount": 52,
+      "severities": {
+        "blocker": 7,
+        "critical": 6,
+        "major": 18,
+        "normal": 14,
+        "minor": 7
+      }
+    },
+    {
+      "id": 3,
+      "name": "Umakant Patil",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 11,
+      "courses": 3,
+      "activities": 6,
+      "score": 256,
+      "previousScore": 16,
+      "bugCount": 56,
+      "severities": {
+        "blocker": 1,
+        "critical": 9,
+        "major": 21,
+        "normal": 17,
+        "minor": 8
+      }
+    },
+    {
+      "id": 4,
+      "name": "Anagha Shinde",
+      "role": "Automation Eng",
+      "image": "",
+      "bugs": 9,
+      "courses": 2,
+      "activities": 8,
+      "score": 227,
+      "previousScore": 25,
+      "bugCount": 40,
+      "severities": {
+        "blocker": 3,
+        "critical": 12,
+        "major": 14,
+        "normal": 10,
+        "minor": 1
+      }
+    },
+    {
+      "id": 5,
+      "name": "Shubham2 Joshi",
+      "role": "Manual Tester",
+      "image": "",
+      "bugs": 8,
+      "courses": 4,
+      "activities": 9,
+      "score": 224,
+      "previousScore": 10,
+      "bugCount": 48,
+      "severities": {
+        "blocker": 3,
+        "critical": 7,
+        "major": 20,
+        "normal": 10,
+        "minor": 8
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nikita Sonawane",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 8,
+      "courses": 4,
+      "activities": 4,
+      "score": 201,
+      "previousScore": 18,
+      "bugCount": 37,
+      "severities": {
+        "blocker": 3,
+        "critical": 9,
+        "major": 13,
+        "normal": 9,
+        "minor": 3
+      }
+    },
+    {
+      "id": 7,
+      "name": "Dhiraj Kunder",
+      "role": "QA Intern",
+      "image": "",
+      "bugs": 7,
+      "courses": 5,
+      "activities": 5,
+      "score": 196,
+      "previousScore": 16,
+      "bugCount": 37,
+      "severities": {
+        "blocker": 6,
+        "critical": 7,
+        "major": 9,
+        "normal": 10,
+        "minor": 5
+      }
+    },
+    {
+      "id": 8,
+      "name": "Nikita Suhane",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 7,
+      "courses": 3,
+      "activities": 8,
+      "score": 195,
+      "previousScore": 6,
+      "bugCount": 44,
+      "severities": {
+        "blocker": 2,
+        "critical": 3,
+        "major": 20,
+        "normal": 16,
+        "minor": 3
+      }
+    },
+    {
+      "id": 9,
+      "name": "Anushree1 Shukla",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 6,
+      "courses": 3,
+      "activities": 5,
+      "score": 165,
+      "previousScore": 15,
+      "bugCount": 30,
+      "severities": {
+        "blocker": 1,
+        "critical": 8,
+        "major": 16,
+        "normal": 3,
+        "minor": 2
+      }
+    },
+    {
+      "id": 10,
+      "name": "Avinash10 Gupta",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 5,
+      "courses": 2,
+      "activities": 9,
+      "score": 156,
+      "previousScore": 12,
+      "bugCount": 21,
+      "severities": {
+        "blocker": 2,
+        "critical": 6,
+        "major": 9,
+        "normal": 6,
+        "minor": 1
+      }
+    },
+    {
+      "id": 11,
+      "name": "Mridul Upadhya",
+      "role": "QA Lead",
+      "image": "",
+      "bugs": 5,
+      "courses": 1,
+      "activities": 7,
+      "score": 144,
+      "previousScore": 12,
+      "bugCount": 35,
+      "severities": {
+        "blocker": 0,
+        "critical": 8,
+        "major": 12,
+        "normal": 12,
+        "minor": 3
+      }
+    },
+    {
+      "id": 12,
+      "name": "Vishnu1 Menon",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 4,
+      "courses": 2,
+      "activities": 8,
+      "score": 142,
+      "previousScore": 40,
+      "bugCount": 23,
+      "severities": {
+        "blocker": 2,
+        "critical": 9,
+        "major": 7,
+        "normal": 5,
+        "minor": 0
+      }
+    },
+    {
+      "id": 13,
+      "name": "Bhavya Momaya",
+      "role": "QA Engineer",
+      "image": "",
+      "bugs": 4,
+      "courses": 1,
+      "activities": 5,
+      "score": 135,
+      "previousScore": 12,
+      "bugCount": 25,
+      "severities": {
+        "blocker": 1,
+        "critical": 9,
+        "major": 7,
+        "normal": 5,
+        "minor": 3
+      }
+    }
+  ],
+  "activitiesList": [
+    { "id": 1, "name": "MP", "rank": 1 },
+    { "id": 2, "name": "Daily Prod Sanity", "rank": 2 },
+    { "id": 3, "name": "NaMo Transcript", "rank": 3 },
+    { "id": 4, "name": "NaMo AI", "rank": 4 },
+    { "id": 5, "name": "NaMo AI Daily check", "rank": 5 },
+    { "id": 6, "name": "NM App Revamp", "rank": 6 },
+    { "id": 7, "name": "11th Anniversary", "rank": 7 },
+    { "id": 8, "name": "Jio Genie", "rank": 8 },
+    { "id": 9, "name": "Extra Activities", "rank": 9 }
+  ]
+}
