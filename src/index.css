@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* Core Colors */
   --bg-primary: #F1F5F9; /* Light slate background */

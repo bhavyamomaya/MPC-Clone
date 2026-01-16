@@ -10,59 +10,28 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside style={{
-      width: '280px', // Slightly wider for better spacing
-      height: '100vh',
-      backgroundColor: 'var(--bg-sidebar)',
-      color: 'var(--text-inverted)',
-      display: 'flex',
-      flexDirection: 'column',
-      padding: '2.5rem 1.5rem',
-      position: 'fixed',
-      left: 0,
-      top: 0,
-      fontFamily: 'var(--font-family)'
-    }}>
-      <div style={{ marginBottom: '3rem', display: 'flex', alignItems: 'center', gap: '1rem', paddingLeft: '0.5rem' }}>
-        <div style={{ 
-          width: '48px', 
-          height: '48px', 
-          borderRadius: '50%', 
-          backgroundColor: '#94a3b8', 
-          overflow: 'hidden',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          border: '2px solid rgba(255,255,255,0.2)'
-        }}>
-           <User size={32} color="#cbd5e1" /> 
+    <aside className="w-[280px] h-screen bg-bg-sidebar text-white flex flex-col px-6 py-10 fixed left-0 top-0 font-sans">
+      <div className="mb-12 flex items-center gap-4 pl-2">
+        <div className="w-12 h-12 rounded-full bg-[#94a3b8] overflow-hidden flex items-center justify-center border-2 border-white/20">
            {/* Placeholder for actual avatar if available */}
-           <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Nikita" alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+           <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Nikita" alt="Profile" className="w-full h-full object-cover" />
         </div>
         <div>
-          <h2 style={{ fontSize: '1rem', fontWeight: '700', color: 'white', lineHeight: '1.2' }}>Nikita Suhane</h2>
-          <p style={{ fontSize: '0.75rem', opacity: 0.7, fontWeight: '400' }}>Presenter</p>
+          <h2 className="text-base font-bold text-white leading-tight">Nikita Suhane</h2>
+          <p className="text-xs opacity-70 font-normal">Presenter</p>
         </div>
       </div>
 
-      <nav style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+      <nav className="flex-1 flex flex-col gap-3">
         {navItems.map((item) => (
           <NavLink
             key={item.path}
             to={item.path}
-            style={({ isActive }) => ({
-              display: 'flex',
-              alignItems: 'center',
-              gap: '1rem',
-              padding: '1rem 1.25rem',
-              borderRadius: '0.75rem',
-              transition: 'all 0.2s',
-              backgroundColor: isActive ? 'var(--accent-primary)' : 'transparent',
-              color: 'white',
-              textDecoration: 'none',
-              fontWeight: isActive ? 600 : 500,
-              boxShadow: isActive ? '0 4px 12px rgba(37, 99, 235, 0.4)' : 'none'
-            })}
+            className={({ isActive }) => `
+              flex items-center gap-4 px-5 py-4 rounded-xl transition-all duration-200
+              ${isActive ? 'bg-accent-primary font-semibold shadow-[0_4px_12px_rgba(37,99,235,0.4)]' : 'bg-transparent font-medium'}
+              text-white no-underline
+            `}
           >
             {({ isActive }) => (
               <>
@@ -74,24 +43,9 @@ const Sidebar = () => {
         ))}
       </nav>
 
-      <div style={{ marginTop: 'auto', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '1.5rem' }}>
-        <button style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: '1rem',
-          padding: '1rem 1.25rem',
-          width: '100%',
-          background: 'none',
-          border: 'none',
-          color: '#ef4444', 
-          cursor: 'pointer',
-          borderRadius: '0.75rem',
-          fontSize: '0.95rem',
-          fontWeight: '500',
-          transition: 'background 0.2s'
-        }}
-        onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'rgba(239, 68, 68, 0.1)'}
-        onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+      <div className="mt-auto border-t border-white/10 pt-6">
+        <button 
+          className="flex items-center gap-4 px-5 py-4 w-full bg-none border-none text-red-500 cursor-pointer rounded-xl text-[0.95rem] font-medium transition-colors hover:bg-red-500/10"
         >
           <LogOut size={20} />
           <span>Logout</span>
